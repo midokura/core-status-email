@@ -1,0 +1,31 @@
+# The URI where jira is hosted
+JIRA_URI='https://myorg.atlassian.net/'
+# User to log into jira
+JIRA_USER='foobar'
+# Password for logging into jira
+JIRA_PASSWORD='SuperSecretNumber5'
+# Jira sprint rapid view
+# You can see this in the URI parameters when looking at swimlanes
+JIRA_SPRINT_RAPID_VIEW=174
+
+# Jenkins user for new jenkins
+J2_USER='foobar'
+# Jenkins password for new jenkins
+J2_PASSWORD='GetTheAPIKeyThroughSettings'
+
+# Jenkins job uri format for new jenkins, %s will be substituted for the version
+J2_JOB_FORMAT="http://shiny-new-jenkins.myorg.com/job/foobar/job/%s/lastCompletedBuild/api/json"
+
+# Jenkins job uri format for old jenkins, %s will be substituted for the version
+J1_JOB_FORMAT="http://crappy-old-jenkins.myorg.com/view/foobar/job/nightly-%s/lastCompletedBuild/api/json"
+
+# Status email will be sent from this address
+EMAIL_FROM="blah@foobar.com"
+
+# Status email will be sent to this address
+EMAIL_TO="team@foobar.com"
+
+# Gmail user to login as
+EMAIL_USER="blah@foobar.com"
+# Gmail password (get an app specific password, it won't accept it otherwise)
+EMAIL_PASS="dfsdfweafsadfsaf"
