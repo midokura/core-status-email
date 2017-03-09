@@ -24,7 +24,8 @@ EMAIL_FROM="blah@foobar.com"
 
 # Status email will be sent to this address
 EMAIL_TO="team@foobar.com"
-
+# The SMTP server to send the email via
+EMAIL_SERVER="smtp.gmail.com:587"
 # Gmail user to login as
 EMAIL_USER="blah@foobar.com"
 # Gmail password (get an app specific password, it won't accept it otherwise)
